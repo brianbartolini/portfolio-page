@@ -1,0 +1,14 @@
+@media (max-width: 65rem) {
+    .portfolioheader,
+    .portfoliodescription{
+        text-align: center;
+    }
+
+    .portfolio .imageslist {
+    
+    } 
+    
+.portfolioimages .portfolio{
+        min-width: 100%;
+    }
+}

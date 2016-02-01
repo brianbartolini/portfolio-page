@@ -22,19 +22,6 @@ a {
 }
 /*Responsive      */
 
-@media (max-width: 65rem) {
-    .portfolioheader h1{
-        color: blue;
-    }
-
- .portfolioimages li{
-        width: 100%;
-        text-align: center;
-        display: none;
-    }
-}
-
-
 /*Navigation Bar Section*/
 
 .top-navigation {
