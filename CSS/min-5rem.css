@@ -1,7 +1,7 @@
 
 @media (min-width: 320px) {
     .top-navigation .content {
-        width:710px; 
+        min-width:710px; 
         
     }
 }
