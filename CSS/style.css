@@ -125,6 +125,7 @@ div {
 
 /*Portfolio Images Section*/
 
+
 .portfolioimages .portfolio{
     width: 50%;
     text-align: center;
@@ -132,16 +133,18 @@ div {
 
 .portfolioimages .imageslist{
     margin: 2.5rem auto;
+    padding-left: 0;
     
 }
 
 .portfolioimages li{
     display: inline-block;
+    margin-top:2em;
        
 }
 
 .portfolioimages h3 {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     font-weight: 300;
 }
 
