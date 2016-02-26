@@ -3,20 +3,26 @@
 
 <head>
 
-<link rel="stylesheet" media="(max-width: 65rem)" href="CSS/max-65rem.css">    
-<link rel="stylesheet" media="(min-width: 320px)" href="CSS/min-5rem.css">        
 <link rel="stylesheet" type="text/css" href="CSS/style.css">
- 
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300|Montserrat:400,700' rel='stylesheet' type='text/css'>
- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
+ <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+ <link rel= "stylesheet" href= "CSS/colorbox.css">
 <!--<link href="css/font-awesome.min.css" rel="stylesheet">-->
-    
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/jquery.colorbox-min.js"></script>
+<script src="js/app.js"></script>
+<script>
+    jQuery(document).ready(function(){
+      jQuery('a.gallery').colorbox({opacity: 0.5 , rel:'group1'});
+    });
+</script>
+
 </head>
-    
+
 <body>
-    
+
 <!--header and navigation bar    -->
-    
+
 <nav class="top-navigation">
     <div class="content">
         <div class="navigationlists">
@@ -29,10 +35,10 @@
                 <li> About </li>
                 <li> Contact</li>
                 <li>Blog</li>
-            </ul>      
+            </ul>
         </div>
     </div>
-</nav>    
+</nav>
 
 <!--    About me-->
 
@@ -45,59 +51,63 @@
             <h4> Projects That I Have Completed </h4>
         </div>
     </div>
-</div>    
+</div>
 <!--Portfolio Images Section -->
-    
-<div class ="portfolioimages"> 
+
+<div class ="portfolioimages">
      <div class="content">
         <ul class= "imageslist">
             <li class= "portfolio">
-                <a href= "http://codepen.io/brianbartolini/pen/xZWMwo" target="_blank">
-                <img width= "400" height="400" src="Images/aboutmepage.png" alt="About Me Page"> 
-                    <h3> About Me Page</h3></a>    
+                <a class = "gallery" href= "Images/aboutmepage.png" target="_blank">
+                <img class= width= "400" height="400" src="Images/aboutmepage.png" alt="About Me Page" />
+                    <h3> About Me Page</h3></a>
+             <li class= "portfolio">
+                <a class= 'gallery' href= "Images/quizappsite.png" target="_blank">
+                <img class= width= "400" height="400" src="Images/ramen_Fotor.png" alt="ramenapp">
+                    <h3> Ramen Quiz</h3></a>
+
             <li class= "portfolio">
-                <a href= "https://www.dropbox.com/s/sb1z5je1ncfp9qg/hackthenytimes.png?dl=0" target="_blank">
-                <img width= "400" height="400" src="Images/hackthetimes.png" alt="Hack the Times"> 
-                    <h3> Hack the New York Times</h3></a> 
-    
-            <li class= "portfolio">
-                <a href= "https://www.dropbox.com/s/sb1z5je1ncfp9qg/hackthenytimes.png?dl=0" target="_blank">
-                <img width= "400" height="400" src="Images/hackthetimes.png" alt="Hack the Times"> 
-                    <h3> Hack the New York Times</h3></a> 
-    
+                <a class= 'gallery' href= "Images/shoppinglistsite.png" target="_blank">
+                <img class= width= "400" height="400" src="Images/shoppinglist_Fotor.png" alt="shoppinglist">
+                    <h3> Shopping List</h3></a>
+
           <li class= "portfolio">
-                <a href= "https://www.dropbox.com/s/sb1z5je1ncfp9qg/hackthenytimes.png?dl=0" target="_blank">
-                <img width= "400" height="400" src="Images/hackthetimes.png" alt="Hack the Times"> 
-                    <h3> Hack the New York Times</h3></a> 
-    
+                <a class= "gallery" href= "Images/photopediasite.png" target="_blank">
+                <img width= "400" height="400" src="Images/photopedia_Fotor.png" alt="photopedia">
+                    <h3> Photopedia</h3></a>
+
             <li class= "portfolio">
+                <a class= "gallery" href= "Images/hackthetimes.png" target="_blank">
+                <img class= width= "400" height="400" src="Images/hackthetimes.png" alt="Hack the Times">
+                    <h3> Hack the New York Times</h3></a>
+
+            <!-- <li class= "portfolio">
                 <a href= "https://www.dropbox.com/s/sb1z5je1ncfp9qg/hackthenytimes.png?dl=0" target="_blank">
-                <img width= "400" height="400" src="Images/hackthetimes.png" alt="Hack the Times"> 
-                    <h3> Hack the New York Times</h3></a> 
-    
-            <li class= "portfolio">
-                <a href= "https://www.dropbox.com/s/sb1z5je1ncfp9qg/hackthenytimes.png?dl=0" target="_blank">
-                <img width= "400" height="400" src="Images/hackthetimes.png" alt="Hack the Times"> 
-                    <h3> Hack the New York Times</h3></a> 
-    
-         </ul> 
+                <img width= "400" height="400" src="Images/hackthetimes.png" alt="Hack the Times">
+                    <h3> Hack the New York Times</h3></a> -->
+
+         </ul>
+       </div>
     </div>
-</div>    
+</div>
 
 <!--Footer section    -->
-    
+
 <div class ="footersection">
     <div class="content">
         <h4 class="footerheader">Connect with me on the following Social Networks</h4>
         <ul class= "socialmedialist">
             <li class= "google"><a href="http://www.google.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
     <li class= "facebook"><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li class= "instagram"><a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li> 
+            <li class= "instagram"><a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
         </ul>
     </div>
-</div>    
-    
-    
+</div>
+
+<!-- <script>
+  jQuery('a.gallery').colorbox();
+</script> -->
+
 </body>
 
 
